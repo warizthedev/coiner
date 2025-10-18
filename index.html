@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: black;
+    }
+
+    .hero-section{
+        text-align: center;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hero-section h1{
+        color: white;
+    }
+
+    .hero-section p{
+        margin-top:18px;
+        color: rgb(166, 164, 164);
+    }
+
+    .social-btn{
+        margin-top: 33px;
+        padding-bottom: 22px;
+        border-bottom: 1px solid rgb(116, 115, 115);
+    }
+
+    .social-btn button{
+        border: none;
+        border-radius:15px;
+        margin: 0 12px;
+        padding:14px 17px;
+        border-bottom: 2px solid white;
+        background: linear-gradient(to bottom, skyblue, rgb(40, 75, 179));
+    }
+
+    .social-btn a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size:15px;
+    }
+    .foot{
+        text-align: center;
+        padding: 13px;
+    }
+
+    .foot p{
+        color: grey;
+    }
+
+    span{
+        color: white;
+    }
+    @media screen and (max-width:768px) {
+        .social-btn{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .social-btn button{
+            margin-bottom: 20px;
+        }
+        .social-btn p{
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .social-btn p span{
+            margin-bottom: 15px;
+        }
+        
+    }
+    
+
+</style>
+<body>
+    <section class="hero-section">
+        <h1>Welcome to KYDO</h1>
+        <p>KYDO name comes fom the Mother "Kiya" and father "Dozer" <br> for the first born dogs on the blockchain <br> streamed on pump.fun</p>
+
+          <div class="social-btn">
+             <button><a href="https://t.me/kydoFirstBornDog">Join Telegram</a></button>
+             <button><a href="https://x.com/kydo_blockchain?s=21&t=IYFBnEXc_Me8Mr-mgHBIBg">Follow on Twitter</a></button>
+             <p>Copy CA Address: <br> <span> GF5huihqkv5nYxJaMVf2xBM2FFgWczKQUZFTjRariFQ</span></p>
+             <!-- <button><a href="">Get CA</a></button> -->
+          </div> 
+          <footer class="foot">
+            <p>2025 KYDO. All rights reserve.| Not financial advice. DYOR.</p>
+          </footer>
+    </section>
+  
+</body>
+</html>
